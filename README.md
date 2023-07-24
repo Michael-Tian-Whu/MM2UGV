@@ -98,7 +98,7 @@ python main_test.py \
 ## Visualization
 
 <div align="center">
-  <img src="figs\visual.png" width="500" > 
+  <img src="figs\visual.png" width="700" > 
 </div>
 
 # Model Zoo
