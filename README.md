@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-25 01:02:35
+ * @LastEditTime: 2023-07-25 01:04:13
  * @Description: 
 -->
 
@@ -75,8 +75,8 @@ python main_test.py \
 ## Few-shot Classification
 
 <div align="center">
-  <img src="figs\fewshot.png" height="300"> 
-  <img src="figs\fewshottable.png" height="300"> 
+  <img src="figs\fewshottable.png" height="200"> 
+  <img src="figs\fewshot.png" height="200"> 
 </div>
 
 ### loss curve 
