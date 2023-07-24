@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-24 23:36:13
+ * @LastEditTime: 2023-07-25 00:57:51
  * @Description: 
 -->
 
@@ -79,17 +79,20 @@ python main_test.py \
   <img src="figs\fewshottable.png" > 
 </div>
 
-⭐ loss curve 
+### loss curve 
 
+> CNNs have inductive bias of vision modality, but Transformer are not. Thus we initialize weights pretrain on ImageNet making the ViTs has the capability of recognizing the image texture features.
+
+| scratch ResNet | scratch ViT | IN pretrained ViT |
+| :---: | :---: | :---: |
+|<img src="figs\losscurve1.png" width="300">|<img src="figs\losscurve2.png" width="300">|<img src="figs\losscurve3.png" width="300"> |
 
 
 ## NMI Criterion
 <div align="center">
-  <img src="figs\cluster1.png" width="500" > 
-  <img src="figs\cluster2.png" width="500"> 
+  <img src="figs\cluster1.png" width="300" > 
+  <img src="figs\cluster2.png" width="300"> 
 </div>
-
-
 
 # Model Zoo
 | Vision Backbone | 5-shot/% | 10-shot/% |Mean/%| Params/M| Download |
