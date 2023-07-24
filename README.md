@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-25 00:57:51
+ * @LastEditTime: 2023-07-25 01:00:05
  * @Description: 
 -->
 
@@ -75,8 +75,8 @@ python main_test.py \
 ## Few-shot Classification
 
 <div align="center">
-  <img src="figs\fewshot.png" > 
-  <img src="figs\fewshottable.png" > 
+  <img src="figs\fewshot.png" width="400"> 
+  <img src="figs\fewshottable.png" width="400"> 
 </div>
 
 ### loss curve 
@@ -90,8 +90,8 @@ python main_test.py \
 
 ## NMI Criterion
 <div align="center">
-  <img src="figs\cluster1.png" width="300" > 
-  <img src="figs\cluster2.png" width="300"> 
+  <img src="figs\cluster1.png" width="400" > 
+  <img src="figs\cluster2.png" width="400"> 
 </div>
 
 # Model Zoo
