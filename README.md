@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-25 01:00:05
+ * @LastEditTime: 2023-07-25 01:02:35
  * @Description: 
 -->
 
@@ -75,13 +75,13 @@ python main_test.py \
 ## Few-shot Classification
 
 <div align="center">
-  <img src="figs\fewshot.png" width="400"> 
-  <img src="figs\fewshottable.png" width="400"> 
+  <img src="figs\fewshot.png" height="300"> 
+  <img src="figs\fewshottable.png" height="300"> 
 </div>
 
 ### loss curve 
 
-> CNNs have inductive bias of vision modality, but Transformer are not. Thus we initialize weights pretrain on ImageNet making the ViTs has the capability of recognizing the image texture features.
+> CNNs have inductive bias of vision modality, but Transformer are not. Thus we initialize weights pretrained on [ImageNet](https://www.image-net.or) making the ViTs has the capability of recognizing the image texture features.
 
 | scratch ResNet | scratch ViT | IN pretrained ViT |
 | :---: | :---: | :---: |
