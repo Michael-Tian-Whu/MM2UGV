@@ -75,8 +75,8 @@ python main_test.py \
 ## Few-shot Classification
 
 <div align="center">
-  <img src="figs\fewshottable.png" height="200"> 
-  <img src="figs\fewshot.png" height="200"> 
+  <img src="figs\fewshottable.png" height="250"> 
+  <img src="figs\fewshot.png" height="250"> 
 </div>
 
 ### loss curve 
