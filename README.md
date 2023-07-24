@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-24 16:38:44
+ * @LastEditTime: 2023-07-24 23:36:13
  * @Description: 
 -->
 
@@ -72,7 +72,26 @@ python main_test.py \
 
 # Experiment Result
 
-## Few-shot Classification & Model Zoo
+## Few-shot Classification
+
+<div align="center">
+  <img src="figs\fewshot.png" > 
+  <img src="figs\fewshottable.png" > 
+</div>
+
+⭐ loss curve 
+
+
+
+## NMI Criterion
+<div align="center">
+  <img src="figs\cluster1.png" width="500" > 
+  <img src="figs\cluster2.png" width="500"> 
+</div>
+
+
+
+# Model Zoo
 | Vision Backbone | 5-shot/% | 10-shot/% |Mean/%| Params/M| Download |
 | :---: | :---: | :---: | :---: | :---:|:---:| 
 ResNet-50 |56.9|62.2 |59.2|25.6|[model](https://drive.google.com/file/d/1VE4TsgKjqbmjtGMpHMMwjUQp4wFrSQe-/view?usp=drive_link) |
@@ -82,7 +101,3 @@ ViT-B|50.1 | 55.6|52.9| 86.6|[model](https://drive.google.com/file/d/1LO3N-5RZQb
 Swin-T|64.9 |70.3|**67.6**| 28.3|[model](https://drive.google.com/file/d/1vPNCChGIWsHbUZloT6ebrZZDx7Wwowv0/view?usp=drive_link) |
 Swin-S|58.5 |64.1|61.3|49.6 | [model](https://drive.google.com/drive/folders/1GgvR3a157ytto6O7gY0TfO6rOG559KOP?usp=drive_link)|
 Swin-B|62.5|69.3|65.9|87.8|[model](https://drive.google.com/drive/folders/122UZvgswTKdifqv5HBvsC04otWB9902j?usp=drive_link) |
-
-## Ablation
-
-
