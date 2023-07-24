@@ -1,7 +1,7 @@
 <!--
  * @Author: WHURS-THC
  * @Date: 2023-07-21 15:49:54
- * @LastEditTime: 2023-07-25 01:04:13
+ * @LastEditTime: 2023-07-25 01:20:54
  * @Description: 
 -->
 
@@ -89,9 +89,16 @@ python main_test.py \
 
 
 ## NMI Criterion
+
 <div align="center">
   <img src="figs\cluster1.png" width="400" > 
   <img src="figs\cluster2.png" width="400"> 
+</div>
+
+## Visualization
+
+<div align="center">
+  <img src="figs\visual.png" width="500" > 
 </div>
 
 # Model Zoo
