@@ -1,0 +1,8 @@
+Few-shot,Params[M],Backbone,Arch
+59.2,25.6,ResNet-50,CNN
+59.8,44.5,ResNet-101,CNN
+65.1,60.2,ResNet-152,CNN
+52.9,86.7,ViT-B/16,TF
+67.6,28.3,Swin-T,TF
+61.3,49.6,Swin-S,TF
+65.9,87.8,Swin-B,TF
